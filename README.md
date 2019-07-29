@@ -2,6 +2,8 @@
 # esx_ladderhud
 **Credits: Marmota#2533**
 
+https://i.imgur.com/0CB3ROJ.png
+
 **How to install:**
 
  - Put the folder "redesigned-hud" inside your resources folder and start it on your server.cfg!
