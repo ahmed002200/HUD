@@ -2,7 +2,7 @@
 **Credits: Marmota#2533**
 
 screenshot:
-https://i.imgur.com/0CB3ROJ.png
+https://i.imgur.com/ECI06Z2.png
 
 
 **How to install:**
