@@ -18,8 +18,8 @@
     padding: 0;
     margin: 0;
     display: inline-block;
-    right: 85vw;
-    bottom: 10.7vw;
+    right: 70vw;
+    bottom: 2vw;
     transition: left 1.0s;
 }
 
@@ -28,11 +28,13 @@
 }
 
 #circle-hunger {
+    position: absolute;
+    bottom: 2.4vw;
+    left: -11.1vw;
     background-image: url("https://i.imgur.com/gHgHins.png");
     border: 0.1vw rgb(151, 61, 0) solid;
-    float: right;
-    height: 2.5vw;
-    width: 2.5vw;
+    height: 2.2vw;
+    width: 2.2vw;
     background-color: #da6608;
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -40,12 +42,14 @@
     background-position: center;
 }
 #circle-thirst {
+    position: absolute;
+    bottom: 5vw;
+    left: -11.1vw;
     background-image: url("https://i.imgur.com/sLJ55gZ.png");
     border: 0.1vw rgb(27, 76, 235) solid;
     margin-right: 8vw;
-    float: right;
-    height: 2.5vw;
-    width: 2.5vw;
+    height: 2.2vw;
+    width: 2.2vw;
     background-color: rgb(0, 110, 255);
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -55,22 +59,22 @@
 .progress {
     position: absolute;
     z-index: -1;
-    height: 1.1vw;
+    height: 0.9vw;
     width: 9vw;
     border-radius: 0.5vw;
     background-color: #2e2e2f;
 }
 #progress-hunger {
-    margin-top: 0.7vw;
-    margin-right: 1.2vw;
+    margin-top: -3.1vw;
+    margin-right: 1.8vw;
     border-radius: 0.5vw;
     border: 0.1vw rgb(151, 61, 0) solid;
     right: 0.4vw;
 }
 
 #progress-thirst {
-    margin-left:2vw;
-    margin-top: 0.7vw;
+    margin-left: -11.2vw;
+    margin-top: -5.7vw;
     border: 0.1vw rgb(27, 76, 235) solid;
 
 }
