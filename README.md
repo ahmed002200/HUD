@@ -1,5 +1,5 @@
 # HUD
-# esx_ladderhud
+# redesigned hunger and thirst bars
 **Credits: Marmota#2533**
 
 https://i.imgur.com/ECI06Z2.png
