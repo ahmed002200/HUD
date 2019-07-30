@@ -1,4 +1,4 @@
-# esx_ladderhud
+# redesigned hunger and thirst bars
 **Credits: Marmota#2533**
 
 screenshot:
