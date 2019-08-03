@@ -1,9 +1,9 @@
-# redesigned hunger and thirst bars
+# HUD
+# hunger, thirst and drunk bar
 **Credits: Marmota#2533**
+**Credits: ★彡 𝘾𝙡𝙮𝙙𝙚 彡★#9915**
 
-screenshot:
-https://i.imgur.com/ECI06Z2.png
-
+https://i.imgur.com/VpduplX.png
 
 **How to install:**
 
@@ -68,3 +68,17 @@ AddEventHandler('esx_status:loaded', function(status)
 	)
 ```
   
+if you wanna disable the default drunk bar that comes with esx_optionalneeds you should go to "esx_optionalneeds/client/main.lua" go to line 93 and change true to false :
+
+```
+     if status.val > 0 then
+        return true <-- change this to false to hide the default drunk bar
+      else
+        return false
+      end
+    end,
+    function(status)
+      status.remove(1500)
+    end
+  )
+```
