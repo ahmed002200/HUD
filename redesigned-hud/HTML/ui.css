@@ -13,13 +13,17 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+/*this has been edited and re-uploaded by ahmed002200.
+discord: ★彡 𝘾𝙡𝙮𝙙𝙚 彡★#9915
+*/
+
 .container-fluid {
     position: absolute;
     padding: 0;
     margin: 0;
     display: inline-block;
-    right: 70vw;
-    bottom: 2vw;
+    right: 69.6vw;
+    bottom: 1.8vw;
     transition: left 1.0s;
 }
 
@@ -33,49 +37,70 @@
     left: -11.1vw;
     background-image: url("https://i.imgur.com/gHgHins.png");
     border: 0.1vw rgb(151, 61, 0) solid;
-    height: 2.2vw;
-    width: 2.2vw;
-    background-color: #da6608;
+    height: 2.1vw;
+    width: 2.1vw;
+    background-color: #ff6600;
     border-radius: 50%;
     background-repeat: no-repeat;
-    background-size: 2vw 2vw;
+    background-size: 1.9vw 1.9vw;
     background-position: center;
 }
 #circle-thirst {
     position: absolute;
-    bottom: 5vw;
+    bottom: 4.8vw;
     left: -11.1vw;
     background-image: url("https://i.imgur.com/sLJ55gZ.png");
     border: 0.1vw rgb(27, 76, 235) solid;
     margin-right: 8vw;
-    height: 2.2vw;
-    width: 2.2vw;
-    background-color: rgb(0, 110, 255);
+    height: 2.1vw;
+    width: 2.1vw;
+    background-color: rgb(60, 112, 255);
     border-radius: 50%;
     background-repeat: no-repeat;
-    background-size: 2vw 2vw;
+    background-size: 1.9vw 1.9vw;
+    background-position: center;
+}
+#circle-drunk {
+    position: absolute;
+    bottom: 7.2vw;
+    left: -11.1vw;
+    background-image: url("https://image.flaticon.com/icons/svg/931/931949.svg");
+    border: 0.1vw rgb(133, 29, 127) solid;
+    margin-right: 8vw;
+    height: 2.1vw;
+    width: 2.1vw;
+    background-color: rgb(183, 0, 255);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 1.7vw 1.7vw;
     background-position: center;
 }
 .progress {
     position: absolute;
     z-index: -1;
-    height: 0.9vw;
-    width: 9vw;
+    height: 0.8vw;
+    width: 8.9vw;
     border-radius: 0.5vw;
     background-color: #2e2e2f;
 }
 #progress-hunger {
-    margin-top: -3.1vw;
-    margin-right: 1.8vw;
+    margin-top: -3vw;
+    margin-right: 2.2vw;
     border-radius: 0.5vw;
     border: 0.1vw rgb(151, 61, 0) solid;
     right: 0.4vw;
 }
 
 #progress-thirst {
-    margin-left: -11.2vw;
-    margin-top: -5.7vw;
+    margin-left: -11.3vw;
+    margin-top: -5.4vw;
     border: 0.1vw rgb(27, 76, 235) solid;
+
+}
+#progress-drunk {
+    margin-left: -11.7vw;
+    margin-top: -7.8vw;
+    border: 0.1vw rgb(133, 29, 127) solid;
 
 }
 .field {
@@ -95,3 +120,9 @@
     float: left;
     background-color: #3498DB ;
 }
+
+#drunk {
+    float: left;
+    background-color: rgb(183, 0, 255);
+}
+
