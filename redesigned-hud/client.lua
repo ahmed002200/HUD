@@ -14,7 +14,13 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-local thirst, hunger = 0, 0
+--[[ this has been edited and re-uploaded by ahmed002200.
+discord: ★彡 𝘾𝙡𝙮𝙙𝙚 彡★#9915
+
+]]
+
+
+local thirst, hunger, drunk = 0, 0, 0
 
 Citizen.CreateThread(function ()
     while true do
@@ -22,11 +28,12 @@ Citizen.CreateThread(function ()
         SendNUIMessage({
             show = IsPauseMenuActive(),
             thirst = thirst,
-            hunger = hunger
+            hunger = hunger,
+            drunk = drunk
         })
     end
 end)
 
 AddEventHandler("esx_ladderhud:updateBasics", function(basics)
-    hunger, thirst = basics[1].percent, basics[2].percent
+    hunger, thirst, drunk = basics[1].percent, basics[2].percent, basics[3].percent
 end)
