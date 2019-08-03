@@ -13,11 +13,16 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+/*this has been edited and re-uploaded by ahmed002200.
+discord: ★彡 𝘾𝙡𝙮𝙙𝙚 彡★#9915
+*/
+
 $(document).ready(function(){
     window.addEventListener('message', function(event) {
         var data = event.data;
         $(".container-fluid").css("display",data.show? "none":"block");
         $("#hunger").css("width", data.hunger + "%");
         $("#thirst").css("width", data.thirst + "%");
+        $("#drunk").css("width", data.drunk + "%");
     });
 });
