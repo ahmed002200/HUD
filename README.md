@@ -1,7 +1,7 @@
 # HUD
 # hunger, thirst and drunk bar
 **Credits: Marmota#2533**
-**Credits: ★彡 𝘾𝙡𝙮𝙙𝙚 彡★#9915**
+**Credits: Ahmed S.#9915**
 
 https://i.imgur.com/VpduplX.png
 
